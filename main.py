@@ -1,4 +1,4 @@
-'''test de test'''
+'''this part is reading the name of all the file in the directory'''
 
 import importgui as ig
 import loadfile as lf
