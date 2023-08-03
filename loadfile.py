@@ -1,4 +1,4 @@
-'''this opens the files'''
+'''this one is to add names to the index in excel'''
 def load_file(returned_path, file_name): #: probably add the paht to file then cocatenate it 
     import xlwings as xw
     import pandas as pd
