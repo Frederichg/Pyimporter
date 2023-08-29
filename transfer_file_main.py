@@ -29,12 +29,12 @@ class MyGUI(QMainWindow):
         self.good_directory =browser()
     
     def update(self): 
-        update(self.good_directory,"C:\\Users\\tutag\\OneDrive\\Documents\\final_file","C:\\Users\\tutag\\OneDrive\\Documents\\final_file")
+        update(self.good_directory,"C:\\Users\\pfh3221\\Documents\\destination","C:\\Users\\pfh3221\\Documents\\destination")
   
                 
       
     def transfer(self):
-     transfer(self.good_directory,"C:\\Users\\tutag\\OneDrive\\Documents\\final_file")  # Replace with the destination directory path
+     transfer(self.good_directory,"C:\\Users\\pfh3221\\Documents\\destination")  # Replace with the destination directory path
 
 
 

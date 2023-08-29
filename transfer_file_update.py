@@ -96,7 +96,9 @@ def update(directory,source_directory,destination_directory):
                                 timestamp = datetime.now().strftime('%Y-%m-%d %H-%M')
                             else : 
                                 timestamp=timestamp
-                            output_file_name = f'C:\\Users\\tutag\\OneDrive\\Documents\\final_file\\output_{timestamp}.xlsx'
+                            # output_file_name = f'C:\\Users\\tutag\\OneDrive\\Documents\\final_file\\output_{timestamp}.xlsx'
+
+                            output_file_name = f'C:\\Users\\pfh3221\\Documents\\destination\\output_{timestamp}.xlsx'
 
                        
                             if os.path.isfile(output_file_name):
